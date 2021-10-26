@@ -1,0 +1,53 @@
+.search-box-container {
+  box-sizing: border-box;
+  max-width: 765px;
+  position: absolute;
+  left: 25%;
+}
+
+#searchBoxInput {
+  width: 100%;
+  padding: 15px;
+  margin: 4px;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+#searchBox {
+  position: relative;
+  width: 370px;
+}
+
+#searchBox img {
+  width: 18px;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  padding: 10px 10px;
+  color: #30a3f1;
+}
+
+#suggestions {
+  display: none;
+  padding: 5px 5px 5px 0;
+  box-shadow: 0 12px 24px rgb(0 0 0 / 40%);
+}
+
+#topContent {
+  min-width: max-content;
+}
+
+.suggestion-header-text {
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+
+#popularProducts {
+  padding: 0px 10px;
+}
+
+#productCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

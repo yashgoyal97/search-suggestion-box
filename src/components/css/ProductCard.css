@@ -1,0 +1,38 @@
+.prod-card {
+  max-width: 180px;
+  transition: transform 0.2s;
+  border-radius: 2px;
+}
+
+.prod-card:hover {
+  transform: scale(1.05);
+  border-radius: 2px;
+}
+
+.prod-card a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-image {
+  min-width: 180px;
+  min-height: 110px;
+  width: -webkit-fill-available;
+}
+
+#prodName {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.new-price {
+  color: blue;
+}
+
+.old-price {
+  font-size: 12px;
+  text-decoration-line: line-through;
+  padding-left: 5px;
+}
